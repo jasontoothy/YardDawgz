@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <title>YardDawgz</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+
+          <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="styles.css" />
+
+        <style>
+            #introDiv {
+                display:flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .bg-dark {
+                background-color: #000!important;
+            }
+            p {
+                line-height: 1.2rem;
+                word-spacing:
+            }
+
+
+        </style>
+        <script src="script.js"></script>
+    </head>
+    <body style="background-color:#000;color: #FFF">
+        <video id="logoSplashVideo" style="position:absolue;left:0;top:0;width:100%;" autoplay muted="true" src="Images/LogoSplash.mov"></video>
+        <div class="container" id="introDiv">
+            <button class="btn btn-outline-light btn-sm" onclick="buttonClicked()">ENTER SITE</button>
+        </div>
+        <div class="container" id="mainPage" visibility="hidden" style="visibility: hidden;">
+            <div class="container row" style="position: fixed;width:100%;" id="navContainer">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">
+                      <img style="width:10rem" height="auto" src="Images/YDLogo.jpg" />
+                    </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                          aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                      <a class="nav-item nav-link active" href="#">Home <span class="sr-only"></span></a>
+                      <a class="nav-item nav-link" href="#"></a>
+                      <a class="nav-item nav-link" href="#">Apparel</a>
+                      <a class="nav-item nav-link" href="#">Equipment</a>
+                      <a class="nav-item nav-link" href="#">Photos</a>
+                      <a class="nav-item nav-link" href="#">Community</a>
+                      <a class="nav-item nav-link" href="#">About us</a>
+                      <a class="nav-item nav-link" href="#">Contact</a>
+
+                    </div>
+                  </div>
+                </nav>
+            </div>
+            <div id="divContent" class="container row">
+                <p>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    At Yard Dawgz, our mission is to develop young adults into people of character and integrity
+                    through sport. <br/><br/>Adversity comes in many different forms, overcoming it on and off the
+                    field is not different. Working hard towards a goal, pushing forward regardless of how
+                    you feel in that moment, and being honest with yourself are keys to success. <br/><br/>
+                                    <span style="font-weight:bold;">Your
+                    success is our success.</span>
+                </p>
+            <iframe width="100%" height="576" src="https://www.youtube.com/embed/_uucuJGEBJ8" title="Goal" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </body>
+</html>
